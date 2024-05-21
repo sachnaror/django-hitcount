@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from django.conf.urls import include, url
+from django.conf.urls import include
 from django.contrib import admin
 
 from blog import views
+from django.urls import re_path as url
 
 admin.autodiscover()
 
