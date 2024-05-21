@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from datetime import timedelta
+from io import StringIO
 
 try:
     import unittest.mock as mock
@@ -11,7 +12,6 @@ except ImportError:
 from django.utils import timezone
 from django.core.management import call_command
 from django.test import TestCase
-from django.utils.six import StringIO
 
 from hitcount.models import Hit
 from hitcount.utils import get_hitcount_model

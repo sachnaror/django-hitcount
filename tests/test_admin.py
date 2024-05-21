@@ -9,7 +9,7 @@ except ImportError:
     from django.urls import reverse
 from django.contrib.admin.sites import AdminSite
 from django.contrib.messages.storage.fallback import FallbackStorage
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AnonymousUser
 
 from hitcount.admin import HitAdmin, HitCountAdmin
 from hitcount.models import Hit, BlacklistIP, BlacklistUserAgent
@@ -44,6 +44,7 @@ class HitAdminTest(TestCase):
         setattr(self.request, 'session', 'session')
         messages = FallbackStorage(self.request)
         setattr(self.request, '_messages', messages)
+        setattr(self.request, 'user', AnonymousUser())
 
         post = Post.objects.create(title='my title', content='my text')
         hit_count = HitCount.objects.create(content_object=post)
