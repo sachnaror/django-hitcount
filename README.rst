@@ -1,4 +1,4 @@
-Django-Hitcount-Experiment-with-Ansible+Terraform-on-AWS
+Django-Hitcount-Ansible+Terraform-on-AWS
 ========================================================
 
 
