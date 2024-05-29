@@ -7,21 +7,20 @@ Basic app that allows you to track the number of hits/views for a particular obj
 Documentation:
 --------------
 
-`<http://django-hitcount.rtfd.org>`_
+No document yet, i didn't have time for this. Documentation sometimes makes me fuckin' bored up.
 
 Source Code:
 ------------
 
-`<https://github.com/thornomad/django-hitcount>`_
+https://github.com/thornomad/django-hitcount
 
 Issues
 ------
 
-Use the GitHub `issue tracker`_ for django-hitcount to submit bugs, issues, and feature requests.
+Not gonna set it up for now, may be some other time. 
 
 Changelog
 ---------
 
-`<http://django-hitcount.readthedocs.org/en/latest/changelog.html>`_
 
-.. _issue tracker: https://github.com/thornomad/django-hitcount/issues
+Not gonna set it up for now, may be some other time. 
