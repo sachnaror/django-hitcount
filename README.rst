@@ -1,5 +1,5 @@
 Django-Hitcount-Ansible+Terraform-on-AWS
-========================================================
+========================================
 
 
 Basic app that allows you to track the number of hits/views for a particular object.
@@ -24,3 +24,6 @@ Changelog
 
 
 Not gonna set it up for now, may be some other time. 
+
+
+
