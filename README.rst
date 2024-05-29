@@ -1,5 +1,5 @@
-django-hitcount
-===============
+Django-Hitcount-Experiment-with-Ansible+Terraform-on-AWS
+========================================================
 
 
 Basic app that allows you to track the number of hits/views for a particular object.
