@@ -12,7 +12,7 @@ No document yet, i didn't have time for this. Documentation sometimes makes me f
 Source Code:
 ------------
 
-https://github.com/thornomad/django-hitcount
+https://github.com/sachnaror/django-hitcount
 
 Issues
 ------
